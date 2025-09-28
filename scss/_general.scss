@@ -1,3 +1,58 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+body,
+section,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+html {
+  background-color: #fafafa;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #aaa76d;
+  border-radius: 50%;
+  bottom: calc(0% + 200px);
+  right: calc(0% + 20px);
 }
