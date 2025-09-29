@@ -29,6 +29,13 @@
   font-weight: 600;
   src: url("../fonts/cormorant-garamond-v21-cyrillic_latin-600.woff2") format("woff2"), url("../fonts/cormorant-garamond-v21-cyrillic_latin-600.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "mrs-saint";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/MrsSaintDelafield-Regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
 /* cormorant-infant-500 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -92,7 +99,7 @@ html {
   justify-content: center;
   background-color: #aaa76d;
   border-radius: 50%;
-  bottom: calc(0% + 200px);
+  bottom: calc(0% + 50px);
   right: calc(0% + 20px);
 }
 
@@ -109,7 +116,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 110vh;
   padding-top: 115px;
 }
 .hero__title {
