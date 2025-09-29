@@ -162,7 +162,8 @@ html {
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #888;
-  font-family: Montserrat;
+  font-family: "medium";
+  font-size: 20px;
   width: 50%;
   text-align: center;
 }
@@ -177,6 +178,8 @@ html {
   background: none;
   background-color: #aaa76d;
   color: #fff;
+  font-family: "medium";
+  font-size: 18px;
 }
 
 .container {
