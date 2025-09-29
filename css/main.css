@@ -103,6 +103,48 @@ html {
   right: calc(0% + 20px);
 }
 
+.arrow {
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
+  top: calc(50% + 200px);
+  transform: rotate(0deg);
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+.arrow span {
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  border-bottom: 5px solid #aaa76d;
+  border-right: 5px solid #aaa76d;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
 .container {
   margin-right: auto;
   margin-left: auto;
